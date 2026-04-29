@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- SEO & Meta Tags -->
+    <title>GAZE Tech | وكالة تقنية متقدمة</title>
+    <meta name="description" content="وكالة GAZE Tech لتطوير البرمجيات، تطبيقات الموبايل، وحلول الذكاء الاصطناعي. نحول رؤيتك إلى واقع رقمي استثنائي.">
+    <meta name="keywords" content="تطوير ويب, تطبيقات موبايل, ذكاء اصطناعي, وكالة برمجيات, GAZE Tech">
+    <meta name="author" content="GAZE Tech">
+    <link rel="icon" type="image/png" href="/logo.png" />
+
+    <!-- Open Graph (For WhatsApp, Facebook, LinkedIn sharing) -->
+    <meta property="og:title" content="GAZE Tech | وكالة تقنية متقدمة">
+    <meta property="og:description" content="وكالة GAZE Tech لتطوير البرمجيات، تطبيقات الموبايل، وحلول الذكاء الاصطناعي. نحول رؤيتك إلى واقع رقمي استثنائي.">
+    <meta property="og:image" content="/logo.png">
+    <meta property="og:type" content="website">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <!-- BoxIcons for icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script type="module" crossorigin src="/assets/index-5bY_x9Dh.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-C4a3cPWj.css">
+  </head>
+  <body>
+    <!-- Preloader -->
+    <div id="preloader">
+      <div class="loader-content">
+        <img src="/logo.png" alt="GAZE Tech Logo" class="loader-logo" onerror="this.style.display='none'">
+        <div class="loader-text">GAZE <span>Tech</span></div>
+        <div class="loading-bar-container">
+          <div class="loading-bar"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Fixed 3D Canvas Container -->
+    <div class="canvas-container">
+      <canvas id="webgl-canvas"></canvas>
+    </div>
+
+    <div id="app">
+      
+      <!-- Header / Navigation -->
+      <header class="header">
+        <a href="#" class="logo">GAZE <span>Tech</span></a>
+        <nav class="navbar">
+          <a href="#hero" class="active">الرئيسية</a>
+          <a href="#services">خدماتنا</a>
+          <a href="#portfolio">أعمالنا</a>
+          <a href="#faq">الأسئلة الشائعة</a>
+          <a href="#contact" class="btn-nav">تواصل معنا</a>
+        </nav>
+        <div class="menu-icon"><i class='bx bx-menu'></i></div>
+      </header>
+
+      <!-- Scrollable Content -->
+      <main class="scroll-content">
+        
+        <!-- Section: Hero -->
+        <section id="hero" class="section step step-1">
+          <div class="step-content hero-content">
+            <div class="badge">وكالة برمجيات رائدة</div>
+            <h1>لقد أعدنا ابتكار <br/><span class="highlight">المستقبل الرقمي</span></h1>
+            <p>نقدم حلولاً برمجية استثنائية، وتصاميم تأسر الأنفاس، وتقنيات تعتمد على الذكاء الاصطناعي لنقل أعمالك إلى مستوى آخر.</p>
+            <div class="hero-btns">
+              <a href="#portfolio" class="btn btn-primary">شاهد أعمالنا</a>
+              <a href="#contact" class="btn btn-secondary">ابدأ مشروعك</a>
+            </div>
+          </div>
+        </section>
+
+        <!-- Section: Services -->
+        <section id="services" class="section">
+          <div class="section-header">
+            <h2 class="section-title">كيف نساعد <span class="highlight">شركتك؟</span></h2>
+            <p class="section-subtitle">نقدم خدمات تقنية متكاملة تبدأ من الفكرة وحتى الإطلاق.</p>
+          </div>
+          <div class="services-grid">
+            <div class="service-card">
+              <i class='bx bx-code-alt'></i>
+              <h3>تطوير الويب</h3>
+              <p>بناء مواقع وتطبيقات ويب سريعة، آمنة، ومصممة بأحدث التقنيات مثل React و Node.js.</p>
+            </div>
+            <div class="service-card">
+              <i class='bx bx-mobile-alt'></i>
+              <h3>تطبيقات الهواتف</h3>
+              <p>تطبيقات احترافية لنظامي iOS و Android مع واجهات مستخدم سلسة وتجربة لا تُنسى.</p>
+            </div>
+            <div class="service-card">
+              <i class='bx bx-brain'></i>
+              <h3>الذكاء الاصطناعي</h3>
+              <p>دمج حلول الذكاء الاصطناعي لأتمتة العمليات وتحسين كفاءة أعمالك.</p>
+            </div>
+            <div class="service-card">
+              <i class='bx bx-palette'></i>
+              <h3>تصميم واجهات UI/UX</h3>
+              <p>تصاميم عصرية وجذابة تضمن أفضل تجربة للمستخدم وتزيد من تفاعله.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Section: Portfolio (Horizontal Scroll) -->
+        <section id="portfolio" class="section portfolio-section">
+          <div class="section-header">
+            <h2 class="section-title">معرض <span class="highlight">أعمالنا</span></h2>
+            <p class="section-subtitle">مشاريع استثنائية نفذناها لعملائنا.</p>
+          </div>
+          <div class="portfolio-wrapper">
+            <div class="portfolio-container">
+              <!-- Project 1 -->
+              <div class="project-panel">
+                <div class="project-info">
+                  <div class="project-tags">
+                    <span class="tag">تطبيقات سطح المكتب</span>
+                    <span class="tag">إدارة أعمال</span>
+                  </div>
+                  <h3>نظام إدارة قاعات الألعاب</h3>
+                  <p>نظام متكامل واحترافي لإدارة الطاولات، الحسابات، الطلبات الديناميكية، وحساب الوقت للحواسيب وأجهزة الكونسول.</p>
+                  <a href="#" class="btn btn-outline" target="_blank"><i class='bx bx-link-external'></i> تفاصيل المشروع</a>
+                </div>
+                <div class="project-image">
+                  <div class="image-overlay"></div>
+                  <!-- Placeholder until real image is added -->
+                  <div class="image-placeholder"><i class='bx bx-game' style="font-size: 5rem; color: rgba(255,255,255,0.5);"></i></div>
+                </div>
+              </div>
+              <!-- Project 2 -->
+              <div class="project-panel">
+                <div class="project-info">
+                  <div class="project-tags">
+                    <span class="tag">تطوير الويب</span>
+                    <span class="tag">متاجر إلكترونية</span>
+                  </div>
+                  <h3>متجر الملابس (SET)</h3>
+                  <p>واجهة متجر ديناميكية مرتبطة بقاعدة بيانات Firebase، مع لوحة تحكم كاملة لإدارة المنتجات بسلاسة.</p>
+                  <a href="#" class="btn btn-outline" target="_blank"><i class='bx bx-link-external'></i> تفاصيل المشروع</a>
+                </div>
+                <div class="project-image">
+                  <div class="image-overlay"></div>
+                  <div class="image-placeholder"><i class='bx bx-store-alt' style="font-size: 5rem; color: rgba(255,255,255,0.5);"></i></div>
+                </div>
+              </div>
+              <!-- Project 3 -->
+              <div class="project-panel">
+                <div class="project-info">
+                  <div class="project-tags">
+                    <span class="tag">تطوير الويب</span>
+                    <span class="tag">مكتبات رقمية</span>
+                  </div>
+                  <h3>موقع الكتب والمكتبة الرقمية</h3>
+                  <p>منصة رقمية متطورة لاستعراض وإدارة الكتب مع واجهة مستخدم سلسة وتجربة قراءة ممتعة.</p>
+                  <a href="https://haiderhero.github.io/README/weppp/" class="btn btn-outline" target="_blank"><i class='bx bx-link-external'></i> زيارة الموقع</a>
+                </div>
+                <div class="project-image">
+                  <div class="image-overlay"></div>
+                  <div class="image-placeholder"><i class='bx bx-book-open' style="font-size: 5rem; color: rgba(255,255,255,0.5);"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Section: Numbers / Stats -->
+        <section class="section stats-section">
+          <div class="stats-container">
+            <div class="stat-box">
+              <h2 class="stat-number" data-target="50">0</h2>
+              <p>مشروع منجز</p>
+            </div>
+            <div class="stat-box">
+              <h2 class="stat-number" data-target="99">0</h2>
+              <p>% رضا العملاء</p>
+            </div>
+            <div class="stat-box">
+              <h2 class="stat-number" data-target="24">0</h2>
+              <p>دعم فني / 7</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Section: FAQ -->
+        <section id="faq" class="section faq-section">
+          <div class="section-header">
+            <h2 class="section-title">الأسئلة <span class="highlight">الشائعة</span></h2>
+          </div>
+          <div class="faq-container">
+            <div class="faq-item">
+              <div class="faq-question">
+                <h3>كم يستغرق بناء موقع إلكتروني؟</h3>
+                <i class='bx bx-chevron-down'></i>
+              </div>
+              <div class="faq-answer">
+                <p>يعتمد الوقت على حجم المشروع ومتطلباته. المواقع التعريفية البسيطة قد تستغرق أسبوعين، بينما الأنظمة المعقدة والمتاجر قد تستغرق شهراً أو أكثر.</p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <div class="faq-question">
+                <h3>هل تقدمون خدمات ما بعد الإطلاق؟</h3>
+                <i class='bx bx-chevron-down'></i>
+              </div>
+              <div class="faq-answer">
+                <p>بالتأكيد! نقدم خدمات الدعم الفني، الصيانة الدورية، والتحديثات لضمان عمل مشروعك بكفاءة عالية دائماً.</p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <div class="faq-question">
+                <h3>ما هي التقنيات التي تستخدمونها؟</h3>
+                <i class='bx bx-chevron-down'></i>
+              </div>
+              <div class="faq-answer">
+                <p>نستخدم أحدث تقنيات تطوير الويب وتطبيقات الموبايل بما في ذلك React, Next.js, Node.js, .NET Core, و Flutter.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Section: Contact -->
+        <section id="contact" class="section contact-section">
+          <div class="contact-container">
+            <div class="contact-info">
+              <h2 class="section-title">دعنا نبني <span class="highlight">مشروعك القادم</span></h2>
+              <p>تواصل معنا اليوم لتحويل فكرتك إلى واقع رقمي مذهل.</p>
+              
+              <div class="contact-details">
+                <a href="https://wa.me/9647711965122" target="_blank" class="contact-item">
+                  <i class='bx bxl-whatsapp'></i>
+                  <div>
+                    <h4>واتساب</h4>
+                    <p dir="ltr">+964 771 196 5122</p>
+                  </div>
+                </a>
+                <a href="https://instagram.com/gaze.dev" target="_blank" class="contact-item">
+                  <i class='bx bxl-instagram'></i>
+                  <div>
+                    <h4>إنستغرام</h4>
+                    <p>@gaze.dev</p>
+                  </div>
+                </a>
+                <a href="mailto:hydrla699@gmail.com" class="contact-item">
+                  <i class='bx bxs-envelope'></i>
+                  <div>
+                    <h4>البريد الإلكتروني</h4>
+                    <p>hydrla699@gmail.com</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            
+            <div class="contact-form">
+              <form>
+                <div class="input-group">
+                  <input type="text" placeholder="الاسم الكامل" required>
+                </div>
+                <div class="input-group">
+                  <input type="email" placeholder="البريد الإلكتروني" required>
+                </div>
+                <div class="input-group">
+                  <textarea placeholder="أخبرنا عن مشروعك..." rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">إرسال الرسالة</button>
+              </form>
+            </div>
+          </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+          <div class="footer-content">
+            <div class="footer-logo">
+              <h2>GAZE <span>Tech</span></h2>
+              <p>رؤيتك، واقعك.</p>
+            </div>
+            <div class="footer-socials">
+              <a href="https://instagram.com/gaze.dev" target="_blank"><i class='bx bxl-instagram'></i></a>
+              <a href="https://wa.me/9647711965122" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+              <a href="https://github.com/haiderhero" target="_blank"><i class='bx bxl-github'></i></a>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <p>&copy; 2026 GAZE Tech. جميع الحقوق محفوظة.</p>
+          </div>
+        </footer>
+
+      </main>
+    </div>
+
+    <!-- Floating Action Button -->
+    <a href="https://wa.me/9647711965122" class="fab-whatsapp" target="_blank" aria-label="تواصل معنا عبر واتساب">
+      <i class='bx bxl-whatsapp'></i>
+    </a>
+
+  </body>
+</html>
